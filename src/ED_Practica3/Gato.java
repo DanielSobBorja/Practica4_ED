@@ -39,10 +39,9 @@ public class Gato extends Mascota {
     /**
      *
      */
-    @Override
-    public void sonido() {
-        System.out.println("Miau");
-    }
+	/*
+	 * @Override public void sonido() { System.out.println("Miau"); }
+	 */
 
     //Getters y Setters
 

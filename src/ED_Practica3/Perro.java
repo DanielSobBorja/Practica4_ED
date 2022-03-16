@@ -39,10 +39,9 @@ public class Perro extends Mascota {
     /**
      *
      */
-    @Override
-    public void sonido() {
-        System.out.println("Guau");
-    }
+	/*
+	 * @Override public void sonido() { System.out.println("Guau"); }
+	 */
 
     //Getters y Setters
 

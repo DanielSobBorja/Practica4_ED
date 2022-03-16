@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author carlos
  */
-public class Barco implements Sonido {
+public class Barco {
 
     //Atributos
     private String nombre;
@@ -117,10 +117,9 @@ public class Barco implements Sonido {
     /**
      *
      */
-    @Override
-    public void sonido() {
-        System.out.println("Ruido");
-    }
+	/*
+	 * @Override public void sonido() { System.out.println("Ruido"); }
+	 */
 
     //toString
 

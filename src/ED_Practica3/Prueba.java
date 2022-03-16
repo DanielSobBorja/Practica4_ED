@@ -33,14 +33,14 @@ public class Prueba {
         //Mascota test2 = new Mascota(); // No se puede instanciar pq es abstracta
         Perro pepo = new Perro("Pepo", "raza chula",6);
         System.out.println(pepo);
-        pepo.sonido();
+        //pepo.sonido();
         Gato misifu = new Gato("Misifú", "blanquete", 1);
         System.out.println(misifu);
-        misifu.sonido();
+        //misifu.sonido();
         
         Barco titanic = new Barco("Titanic", new Date(), 400, "IKEA", "5000MW", 4005);
         System.out.println(titanic);
-        titanic.sonido();
+        //titanic.sonido();
         titanic.setMotor("noIKEA", "454363MW", 1000);
         System.out.println(titanic.getMotor());
         titanic.getMotor().setPotencia("0");
