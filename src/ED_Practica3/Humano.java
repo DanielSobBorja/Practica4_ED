@@ -10,7 +10,7 @@ package ED_Practica3;
  *
  * Creo la clase persona como abstract ya que no se crearán instancias de ella
  */
-public abstract class Persona {
+public abstract class Humano {
 
     //Atributos
     private String nombre;
@@ -22,7 +22,7 @@ public abstract class Persona {
     /**
      *
      */
-    public Persona() {
+    public Humano() {
     }
 
     //Constructor lleno
@@ -33,7 +33,7 @@ public abstract class Persona {
      * @param DNI
      * @param edad
      */
-    public Persona(String nombre, String DNI, int edad) {
+    public Humano(String nombre, String DNI, int edad) {
         this.nombre = nombre;
         this.DNI = DNI;
         this.edad = edad;

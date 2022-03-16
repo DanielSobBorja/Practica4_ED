@@ -11,7 +11,7 @@ package ED_Practica3;
  * Mediante la palbra reservada extends se inndica que la clase adulto hereda de
  * la clase persona
  */
-public class Adulto extends Persona {
+public class Adulto extends Humano {
 
     //Atributos
     private String NSS;
