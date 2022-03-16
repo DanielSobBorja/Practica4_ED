@@ -17,7 +17,7 @@ public class Prueba {
      */
     public static void main(String[] args) {
          //Niño tommy = new Niño();
-        Niño pepe = new Niño("AulaB", new Juguete(),"Pepe", "67674B", 4 );
+        Ni�o pepe = new Ni�o("AulaB", new Juguete(),"Pepe", "67674B", 4 );
         System.out.println(pepe);
         
         //Adulto juan = new Adulto();

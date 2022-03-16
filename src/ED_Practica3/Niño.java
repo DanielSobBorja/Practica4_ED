@@ -11,7 +11,7 @@ package ED_Practica3;
  * Mediante la palbra reservada extends se inndica que la clase niño hereda de
  * la clase persona
  */
-public class Niño extends Persona {
+public class Ni�o extends Humano {
 
     //Atributos
     private String colegio;
@@ -23,7 +23,7 @@ public class Niño extends Persona {
     /**
      *
      */
-    public Niño() {
+    public Ni�o() {
     }
     //Constructor lleno
 
@@ -35,7 +35,7 @@ public class Niño extends Persona {
      * @param DNI
      * @param edad
      */
-    public Niño(String colegio, Juguete juguete, String nombre, String DNI, int edad) {
+    public Ni�o(String colegio, Juguete juguete, String nombre, String DNI, int edad) {
         super(nombre, DNI, edad);
         this.colegio = colegio;
         this.juguete = juguete;
@@ -81,7 +81,7 @@ public class Niño extends Persona {
      */
     @Override
     public String toString() {
-        return "Niño" + "colegio=" + colegio + ", Juguete=" + juguete + ", nombre=" + getNombre() + ", DNI=" + getDNI() + ", edad=" + getEdad() + "}";
+        return "Ni�o" + "colegio=" + colegio + ", Juguete=" + juguete + ", nombre=" + getNombre() + ", DNI=" + getDNI() + ", edad=" + getEdad() + "}";
 
     }
 
